@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "worksans";
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+
+header {
+    background-color: black;
+    height: 100vh;
+
+    div:nth-last-of-type(2){
+        width: 50%;
+        height: 150px;
+        border-right: solid 1px #FFFFFF4D;
+    }
+
+    div:nth-last-of-type(1) {
+    width: 33.3%;
+    height: 250px;
+    margin-inline: 33.3%;
+    text-align: center;
+    margin-top: 48px;
+    }
+
+    p {
+        font-family: "worksans";
+        font-size: 12px;
+        color: #FFF;
+        padding-bottom: 16px;
+    }
+
+    h1 {
+        font-family: inter;
+        color: #FFFFFF;
+        font-size: 64px;
+    }
+
+    span {
+        color: transparent;
+        -webkit-text-fill-color: black;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #FFFFFF;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 8%;
+        align-items: center;
+        margin-top: 16%;
+    }
+
+    a {
+        font-size: 20px;
+    text-decoration: none;
+    color: #FFF;
+    border: solid 1px rgba(255, 255, 255, 0.30);
+    padding: 30px;
+    padding-block: 10px;
+    }
+
+    a:hover {
+        background-color: #FFF;
+        color: black;
+    }
+
+}
+
+.div1 {
+    // height: 100vh;
+    background-color: black;
+
+    h1 {
+        color: #FFF;
+        font-size: 96px;
+        padding-top: 9%;
+        padding-left: 14%;
+        padding-right: 25%;
+        font-family: inter;
+    }
+}
+
+.sec1 {
+    background-color: black;
+    display: flex;
+    // height: 100vh;
+
+    .div3 {
+        width: 57%;
+        height: 76%;
+        color: #FFF;
+        margin-left: 14%;
+
+        p {
+            font-size: 16px;
+            font-family: worksans;
+        }
+
+        .p1 {
+            padding-top: 20%;
+        }
+
+        h1 {
+            font-size: 88px;
+            font-family: inter;
+        }
+    }
+}
