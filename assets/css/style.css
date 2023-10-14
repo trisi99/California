@@ -157,7 +157,6 @@ header a:hover {
   background-color: black;
   color: #FFF;
   margin-top: -5%;
-  overflow: hidden;
 }
 .sec3 article {
   padding-left: 10%;
@@ -175,14 +174,172 @@ header a:hover {
   font-size: 5.25rem;
   font-family: inter;
 }
+.sec3 img:nth-of-type(1) {
+  margin-left: 10%;
+  margin-top: 17%;
+}
+.sec3 img:nth-of-type(2) {
+  padding-bottom: 5%;
+  margin-left: -5%;
+  position: relative;
+  z-index: 2;
+}
+
 .p1_bear {
+  font-weight: 700;
   font-family: inter;
   font-size: 185%;
 }
 .p1_bear span {
+  font-weight: 50;
   font-family: worksans;
   font-size: 1.5rem;
   line-height: 400%;
+}
+
+.divbla {
+  background-color: #FFF;
+  margin-top: -12%;
+  overflow: hidden;
+}
+.divbla img {
+  width: 500px;
+  height: 500px;
+  animation-name: rotate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin-top: -10%;
+  position: relative;
+  left: 73.5%;
+  z-index: 1;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.sec4 {
+  background-color: #EEEEEE;
+  padding-bottom: 2%;
+}
+.sec4 article {
+  padding-left: 10%;
+  padding-top: 2%;
+}
+.sec4 article > p {
+  font-family: worksans;
+  margin-bottom: 1%;
+}
+.sec4 article div {
+  display: flex;
+  gap: 25%;
+}
+.sec4 article div h1 {
+  font-size: 5.25rem;
+  font-family: inter;
+}
+.sec4 img:nth-of-type(1) {
+  position: relative;
+  z-index: 2;
+  margin-left: 14%;
+  padding-bottom: 7%;
+  margin-right: -5%;
+}
+.sec4 img:nth-of-type(2) {
+  margin-top: 12%;
+}
+
+footer {
+  background-color: black;
+  overflow: hidden;
+}
+
+.secbanner {
+  background-color: #EEEEEE;
+  transform: skew(-28deg, 45deg);
+  position: relative;
+  left: 38%;
+}
+
+.pban {
+  font-size: 6rem;
+  font-weight: bolder;
+  animation-name: banner;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+.pban span {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+@keyframes banner {
+  from {
+    transform: translate(-420px);
+  }
+  to {
+    transform: translate(250px);
+  }
+}
+.p1foot {
+  color: #FFF;
+  font-size: 0.75rem;
+  font-family: worksans;
+  padding-bottom: 2%;
+}
+
+.p2foot {
+  font-size: 1.5rem;
+  font-family: inter;
+  color: #FFF;
+  line-height: 2.8rem;
+  padding-bottom: 2%;
+}
+
+.sec1foot {
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.sec1foot a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFF;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  padding-block: 10px;
+  font-family: "inter";
+}
+.sec1foot a:hover {
+  background-color: #FFF;
+  color: black;
+}
+
+.artfoot {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 12.5%;
+  padding-bottom: 2%;
+}
+.artfoot div p {
+  color: #FFF;
+  font-size: 0.75rem;
+  font-family: worksans;
+  line-height: 2rem;
+}
+.artfoot div img:nth-of-type(2) {
+  padding-left: 10px;
+}
+.artfoot div img:nth-of-type(3) {
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
